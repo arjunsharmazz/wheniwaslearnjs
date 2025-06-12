@@ -31,7 +31,8 @@ let greet = "Hello " + name;
 let greet2= `Hello ${name}`;
 // 🎯 Strings are Immutable
 
-let str = "hello";
+let str = new String("hello")
+console.log(str)
 str[0] = "H";
 console.log(str); // "hello" (नहीं बदला)
 // 🧪 Examples
